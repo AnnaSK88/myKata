@@ -36,12 +36,13 @@
 
 function preFizz(n) {
     let arr = []
-    var space = ','
+
     for (let i = 1; i <= n; i++) {
-        arr += i;
+        arr = (arr + i);
+
     }
-    return [arr].map(Number)
+    return Number(arr)
 }
 console.log(preFizz(1)) //[1]
 console.log(preFizz(3)) //[1,2,3]
-console.log(preFizz(23)) //[1,2,3]
+console.log(preFizz(23)) //[1,2,3,4,5,6,7,8.....23]
