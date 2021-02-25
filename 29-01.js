@@ -1,29 +1,29 @@
 // 1 
 // найти метод который возвращает число полученое делением первого на второго и округленный до десятых
-// const solve = (x, y) => {
-//     return (x / y).toFixed(1);
-// }
-// console.log(solve(5, 3))
+const solve = (x, y) => {
+    return (x / y).toFixed(1);
+}
+console.log(solve(5, 3))
 
-//const solve1 = (x, y) => x / y
+const solve1 = (x, y) => x / y
 
 // 2 
 //Завершите метод, который принимает логическое значение и возвращает "Yes"строку для trueили "No"строку для false.
-// function boolToWord(bool) {
-//     return bool ? 'Yes' : 'No';
-//     if (bool === true) {
-//         return "YES";
-//     }
-//     if (bool === false) {
-//         return "NO"
-//     }
-//     return bool
+function boolToWord(bool) {
+    return bool ? 'Yes' : 'No';
+    if (bool === true) {
+        return "YES";
+    }
+    if (bool === false) {
+        return "NO"
+    }
+    return bool
 
-// }
-// //return bool ? 'Yes' : 'No';
+}
+//return bool ? 'Yes' : 'No';
 
-// console.log(boolToWord(true))
-// console.log(boolToWord(false))
+console.log(boolToWord(true))
+console.log(boolToWord(false))
 
 
 // 3
